@@ -1,0 +1,37 @@
+Creio que isso pode ajudar quem deseja criar um portfolio online:
+
+Como fazer sua página na internet
+
+Passos:
+1- Escolher o template que ti agrade:
+https://bootstrapmade.com/bootstrap-portfolio-templates/
+Existem outros sites com templates, eu sugiro este.
+
+2- Criar no github.com um repositório com o nome da sua conta:
+Por exemplo usa conta é: abcd
+Crie um repositório chamado: abcd.github.io
+
+3- Clonar esse repositório localmente
+Na linha de comando:
+git clone https://github.com/abcd/abcd.github.io.git
+
+4- Inserie no diretório abcd.github.io criado no passo3 os arquivos do template escolhido no passo1.
+
+5- Execute:
+git add *
+git status
+git commit -m "My Portfolio"
+git push
+
+5- Com isso vc irá descarregar o template no repositório gerado no github.com
+
+6- Confira sua conta no github.com e faça um refresh até aparecer os arquivos do template.
+
+7- Acesse sua página em uma aba do browser:
+https://abcd.github.io
+
+8- Agora modifique os arquivos do template. Comente as linhas, nunca remova definitivamente, pois caso de errado, basta vc retornar o que havia antes.
+
+9- Pra ver como esta ficando clique arquivo index.html presente no diretório abcd.github.io
+
+10- Quando estiver ok, execute o passo5 novamente para levar as mudança pra sua página na internet.

@@ -1,0 +1,26 @@
+/*!
+ * User this with assets/js/resume-accordion.js for accordion in section#resume.resume
+ */
+.resume-accordion {
+  font-style: italic;
+  text-align: left;   
+  font-size: 15px;         
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  transition: 0.4s;
+}
+
+.resume-accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0, 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
