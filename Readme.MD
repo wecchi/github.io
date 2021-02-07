@@ -1,22 +1,32 @@
-# Marketing Analytics
+# COM120 - Algoritmos e Programação de Computadores II
 
-_Marketing Analytics_ é aplicar Data Science aos dados de todos os canais de marketing consolidando em uma visão comum:
-- permite aos profissionais de Marketing avaliar o sucesso de suas iniciativas.
-- isso é feito medindo o desempenho das campanhas de Marketing, coletando os dados e analisando os resultados.  O Marketing está surtindo efeitos? (Divulgar produtos ou serviços).
-- utiliza métricas importantes de negócios, como ROI (Retorno Sobre o Investimento), Atribuição de Marketing e Eficácia Geral do Marketing.
-- Estes são alguns exemplos de tipos de questões a serem abordadas analises de marketing:
-	- Como estão as nossas iniciativas de marketing hoje? E a longo prazo? O que podemos fazer para melhorá-las?
-    - Como nossas atividades de marketing se comparam às de nossos concorrentes? Onde eles estão gastando seu tempo e dinheiro? Eles estão usando canais que não estamos usando?
-    - Nossos recursos de marketing estão alocados corretamente? Estamos dedicando tempo e dinheiro aos canais certos?
-    - Como devemos priorizar nossos investimentos para o próximo ano?
-    - Qual o perfil dos nossos clientes? Eles são da mesma área regional? Tem os mesmos gostos e preferências? Qual a faixa etária que mais consome o produto _A_?
-    - Consigo segmentar meus clientes por similaridade? Tenho como saber os gastos por estes grupo?
-    - De onde surgiu a venda (geograficamente ou pelo canal de vendas da internet)?
-    - Quantas vezes o cliente visita a página antes de consumar uma compra? Existe melhoria na conversão dos clientes se mudarmos a cor das páginas?
+Composição de programas com múltiplos arquivos de código fonte, uso de bibliotecas, APIs (WEB) e GUIs. Noções de programação orientada a objetos. Depuração de programas. Testes automatizados.
+Conceito e uso de pilhas, filas, listas, árvores. Recursão. Algoritmos de Ordenação e Busca.
+Noções de gerenciamento de memória e manipulação de listas. Módulos e noções de objetos, arquivos. Modularização (módulos, bibliotecas, interfaces). Uso de APIs básicas da WEB e manipulação de dados (JSON). Criação de interfaces gráficas simples. Controle de Versão (GIT). 
 
-## Projetos:
+## Exercícios práticos:
 
-Abaixo segue uma breve descrição do problema de negócios e da solução de alguns projetos em Data Science (o link direciona para o código):
+Relacionei alguns exercícios realizados no 4º bimestre/2020 durante as aulas da disciplina COM120 do Curso de Bacharel de Ciência de Dados da Univesp. Abaixo segue uma breve descrição do problema de negócios e da solução em Python (o link direciona para o código):
+
+1. [Consumo de gasolina](Sem2-ActiveCode_ex_2_10.py): calcula o consumo de gasolina de uma carro em quilômetros por litro
+2. [Área de um retângulo](Sem2-ActiveCode_ex_2_9.py): calcula a área de um retângulo a partir das informações de altura e largura
+3. [Juros compostos](Sem2-ActiveCode_ex_2_7.py): calcula o valor final de juro compostos a uma taxa de 8% a.a.
+4. [Split de palavras](Sem2-ActiveCode_ex_2_5.py): armazena cada uma das palavras de uma frase numa variável e depois imprime-as
+5. [Comprimento da hipotenusa](Sem2-ActiveCode_scratch_6_4.py): dado o comprimento de dois lados de um triângulo, calcula sua hipotenusa
+6. [Verifica se o número é ímpar](Sem2-ActiveCode_ex_6_8.py): recebe como argumento um inteiro e retorna True se for ímpar
+7. [Média harmônica amortizada](MediaHarmonicaAmortizada.py): calcula a média harmônica amortizada para os números 3.6, 8.9, 10 com fator 4 para amortização
+8. [O triângulo é retângulo?](Sem2-ActiveCode_ex_6_11.py): dado o comprimento de três lados de um triângulo, determina se o triângulo é retângulo
+9. [String do sistema-L](Sem2-ActiveCode_strings_lys2.py): desenho simétrico utilizando a biblioteca turtle
+10. [Contar letras de uma frase](contar_letras.py): dada uma frase e uma letra a ser contatada, a função informa quantidade de ocorrênicas
+11. [Matriz simétrica? E sua transposta?](Aula20_Lista_multidimensional.py): cada uma matriz, verifica se a mesma é simétrica. Calcular sua transposta com laço _for in_
+12. [Contar palavras numa sentença](Sem7-ex4_2.py): supondo que a variável previsão tenha recebido a string 'It will be a sunny day today', conta ocorrência da palavra 'day'
+13. [Soma de matrizes](Sem7-ex5_9.py): dada duas matrizes de mesma dimensão, calclular a soma de seus elementos numa nova matriz com laço _for in_
+14. [Palavras com 4 caracteres](Sem6-ex3_5.py): dada um frase, retorna apenas as palavras com 4 caracteres com laço _for in_
+15. [Sequência numéricas](Sem6-ex3_7.py): utilizando laço _for in_, exibir sequências numéricas específicas
+16. [Desafio da semana 6](Sem6-Desafio.py): como você implementaria um programa que precisasse calcular a média de 1 milhão de valores? 
+17. [Desafio da semana 7](Sem7-Desafio.py): armazenando dados de aluno e disciplina existentes em listas num banco SQLite
+18. [Extração de vogais](Prova_3.py): Implemente uma função em Python que receba uma string como parâmetro e imprima as vogais
+
 
 ### 1. [Segmentação de clientes](SegmentacaoCliente.ipynb) para _Food Delivery_
 
