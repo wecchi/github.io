@@ -6,26 +6,96 @@ Noções de gerenciamento de memória e manipulação de listas. Módulos e noç
 
 ## Exercícios práticos:
 
-Relacionei alguns exercícios realizados no 4º bimestre/2020 durante as aulas da disciplina COM120 do Curso de Bacharel de Ciência de Dados da Univesp. Abaixo segue uma breve descrição do problema de negócios e da solução em Python (o link direciona para o código):
+Relacionei os exercícios realizados no 4º bimestre/2020 durante as aulas da disciplina COM120 do Curso de Bacharel de Ciência de Dados da Univesp. Abaixo segue uma breve descrição do problema de negócios e da solução em Python (o link direciona para o código):
 
-1. [Consumo de gasolina](Sem2-ActiveCode_ex_2_10.py): calcula o consumo de gasolina de uma carro em quilômetros por litro
-2. [Área de um retângulo](Sem2-ActiveCode_ex_2_9.py): calcula a área de um retângulo a partir das informações de altura e largura
-3. [Juros compostos](Sem2-ActiveCode_ex_2_7.py): calcula o valor final de juro compostos a uma taxa de 8% a.a.
-4. [Split de palavras](Sem2-ActiveCode_ex_2_5.py): armazena cada uma das palavras de uma frase numa variável e depois imprime-as
-5. [Comprimento da hipotenusa](Sem2-ActiveCode_scratch_6_4.py): dado o comprimento de dois lados de um triângulo, calcula sua hipotenusa
-6. [Verifica se o número é ímpar](Sem2-ActiveCode_ex_6_8.py): recebe como argumento um inteiro e retorna True se for ímpar
-7. [Média harmônica amortizada](MediaHarmonicaAmortizada.py): calcula a média harmônica amortizada para os números 3.6, 8.9, 10 com fator 4 para amortização
-8. [O triângulo é retângulo?](Sem2-ActiveCode_ex_6_11.py): dado o comprimento de três lados de um triângulo, determina se o triângulo é retângulo
-9. [String do sistema-L](Sem2-ActiveCode_strings_lys2.py): desenho simétrico utilizando a biblioteca turtle
-10. [Contar letras de uma frase](contar_letras.py): dada uma frase e uma letra a ser contatada, a função informa quantidade de ocorrênicas
-11. [Matriz simétrica? E sua transposta?](Aula20_Lista_multidimensional.py): cada uma matriz, verifica se a mesma é simétrica. Calcular sua transposta com laço _for in_
-12. [Contar palavras numa sentença](Sem7-ex4_2.py): supondo que a variável previsão tenha recebido a string 'It will be a sunny day today', conta ocorrência da palavra 'day'
-13. [Soma de matrizes](Sem7-ex5_9.py): dada duas matrizes de mesma dimensão, calclular a soma de seus elementos numa nova matriz com laço _for in_
-14. [Palavras com 4 caracteres](Sem6-ex3_5.py): dada um frase, retorna apenas as palavras com 4 caracteres com laço _for in_
-15. [Sequência numéricas](Sem6-ex3_7.py): utilizando laço _for in_, exibir sequências numéricas específicas
-16. [Desafio da semana 6](Sem6-Desafio.py): como você implementaria um programa que precisasse calcular a média de 1 milhão de valores? 
-17. [Desafio da semana 7](Sem7-Desafio.py): armazenando dados de aluno e disciplina existentes em listas num banco SQLite
-18. [Extração de vogais](Prova_3.py): Implemente uma função em Python que receba uma string como parâmetro e imprima as vogais
+<dl>
+<dt> Gerenciamento de memória, arquivos e depuração de programas</dt>
+<dd>
+
+1. [Extrair palavras de aquivo 1](Semana1/Aula02_Arquivos.py): leitura de um arquivo texto, imprime as palavras encontradas e retorna a quantidade de palavras e o tamanho do arquivo lido.
+2. [Contar ocorrências de palavra num arquivo](Semana1/ProblemaPratico_4_7.py): leitura de um arquivo texto para obter quantidade de ocorrências de uma palavra a ser localizada.
+3. [Extrair palavras de aquivo 2](Semana1/ProblemaPratico_4_8.py): leitura de um arquivo texto para obter quantidade de palavras (desconsiderando símbolos de pontuação) e impressão da lista de palavras.
+4. [Contar linhas contendo palavra específica](Semana1/ProblemaPratico_4_9.py): impressão das linhas de um arquivo que contenham pelo menos uma ocorrência de uma palavra a ser localizada.
+5. [Trocar primeiro com último item de uma lista](Semana1/ProblemaPratico_3.14.py): função trocaPU(), que aceita uma lista como entrada e troca a posição entre o primeiro e último elementos da lista
+6. [Desenhar do símbolo da olimpíada](Semana1/ProblemaPratico_3.15.py): função olimpíadas(t), que faz com que a tartaruga t desenhe os anéis olímpicos.
+7. [MDC - Obter Máximo Divisor Comum](Semana1/Sem1_textobase_cap3_p76.py): algoritmo para calcular o máximo divisor comum entre dois números
+8. [Calcular força exercida por um líquido](Semana1/Sem1_textobase_cap3_p81.py): função para calcular a força exercida na válvula de um reservatório cilíndrico contendo um líquido de peso específico conhecido.
+9. [Extrair raízes de uma equação do 2º grau](Semana1/Sem1_textobase_cap3_p87.py): algoritmo para calcluar raízes de uma equação de segundo grau (Ax² + Bx + C).
+10. [Gerar e ler arquivo texto](Semana1/Sem1_textoBase_ex7_1_p169.py): trechos de códigos para gravação e leitura de um arquivo texto
+11. [Gerar um arquivo com entrada de números reais 1](Semana1/Sem1_textoBase_ex7_1a_p173.py): programa que permaneça em laço lendo e gravando números reais em um arquivo até que seja digitado 0.
+12. [Ler e somar números de um arquivo 1](Semana1/Sem1_textoBase_ex7_2a_p174.py): programa que leia um arquivo texto contendo um número inteiro em cada linha, exiba na tela e faça a totalização dos valores lidos.
+13. [Gerar um arquivo com entrada de números reais 2](Semana1/Sem1_textoBase_ex7_1b_p173.py): programa que permaneça em laço lendo números reais até que seja digitado 0, gravando todos os números num arquivo a partir da lista de números criada.
+14. [Ler e somar números de um arquivo 2](Semana1/Sem1_textoBase_ex7_2b_p175.py): leitura de arquivo com totalização de valores – solução com iterador de arquivo.
+15. [Calcular média de temperaturas](Semana1/Sem1_textobase_cap3_p96.py): média de N temperaturas fornecidas pelo usuário
+16. [Imprimir lista de compras com totais](Semana1/Sem1_textoBase_ex7_3_p177.py): leitura de um arquivo texto que contém diversas linhas que representam uma lista de compras. Impressão da lista com totais.
+17. [Gerar inventário de estoque](Semana1/Sem1_textoBase_ex7_4_p178.py): programa que leia um número inteiro N (10 < N < 10.000) e grave um arquivo com N linhas, simulando um inventário de estoque contendo código do produto, quantidade em estoque, valor unitário e ICMS a ser aplicado.
+18. [Processar inventário de estoque](Semana1/Sem1_textoBase_ex7_5_p179.py): programa que leia o arquivo CSV criado anteriormente, calculando o valor total em mercadorias e o respectivo crédito de ICMS.
+19. [Testar problemas de encoding](Semana1/Sem1_textoBase_ex7_6_p181.py): algoritmo para leitura e para gravação de arquivos textos usando codificação de caracteres conflitantes, mais detalhes na [W3C](https://www.w3.org/International/questions/qa-what-is-encoding).
+20. [Obter números primos](Semana1/Sem1_textoBase_ep7_1_p182.py): programa que leia um número inteiro N e grave em um arquivo em disco todos os números primos existentes no intervalo fechado [2, N], um número em cada linha.
+21. [Criar arquivo no N números aleatórios](Semana1/Sem1_textoBase_ep7_2_p182.py): gere o arquivo NUMEROS.TXT com 2000 números, um em cada linha, gerados com a função randint no intervalo fechado [1, 100.000].
+22. [Ordenar números aleatórios](Semana1/Sem1_textoBase_ep7_3_p183.py): programa que leia o arquivo NUMEROS.TXT gerado no exercício anterior, colocando-os em uma lista. Ordene a lista utilizando o método Bubble Sort e grave os números ordenados no arquivo “ORDENADOS.TXT”.
+23. [Correção de BUGs](Semana1/ProblemaPratico_4_10.py): explicação do que causa o erro de sintaxe em cada instrução listada.
+</dd>
+<dt>Programação orientada a objetos, prezando pela modularização e reutilização de código</dt>
+<dd>
+
+24. [Classes Point e Vector](Semana2/Sem2_videoaula_POO1.py): conceitos de Orientação a Objeto. Criação das classes _Point_ e _Vector_ com métodos up(), down(), left(), right(), distancia(), subscrição dos métodos para a A classe _Vector_ para aceitar a adição de vetor e operações de produto, além de representação de string canônica. (exercícios 8.12, 8.14 e problema prático 8.8)
+25. [Classes Funcionario e Gerente](Semana2/Sem2_videoaula_POO2-Exercicio.py): trabalhando com herança.
+</dd>
+<dt>Funções recursivas que auxiliam na proposta de soluções para problemas complexos</dt>
+<dd>
+
+26. [Calclular sequência de Fibonacci e Fatorial](Semana3/Sem3_Recursao.py): conceitos de recursão para reselver Fatorial e Fibonacci.
+27. [Comparar tempo entre recursão e iteração](Semana3/Sem3_Recursao_Iteracao.py): comparando os tempos entre iteração e recursão. Conceitos de Memoização para otimizar função recursiva.
+28. [Estudo do capítulo 10 - Recursão](Semana3/Sem3-txtBase.py): analisador de vírus num sistema de arquivos; busca binária em lista (dividir para conquistar); análise experimental de tempo de execução; retornando um dicionário para representar a tabela de frequência de uma lista.
+29. [Estudo da Seção 5.4 - Recursividade](Semana3/Sem3-txtBase2.py): funções variadas: verifica se número é primo; intersecção de duas listas; soma dos elementos de uma lista; busca binária em lista ordenada; verifica se número é par ou ímpar; retorna lista de N números primos; checa divisibilidade entre dois números; conversor de base decimal para binária; cálculo de dígito verificador; valida valor de entrada num intervalo definido; conversor de base decimal para diversas bases - até base 36; inverter sequência de caracteres; verifica palíndromo.
+</dd>
+<dt> Estruturas de dados utilizadas para representação, manipulação e armazenamento de dados? **pilhas, filas e árvores**</dt>
+<dd>
+
+30. [Pilha](Semana4/Sem4_videoaula_Pilha.py): criação de classe _pilha_ para entendimento dos métodos _push_, _pop_, _top_ e _empty_.
+31. [Fila](Semana4/Sem4_videoaula_Fila.py): criação de classe _fila_ para entendimento dos métodos _inserir_, _remover_, _top_ e _empty_; implementação de classe _filaBanco_ para geração e atendimento das senhas normais e prioritárias.
+32. [Dicionário](Semana4/Sem4_textoBase_Dictionary.py): funções para retornar o dia da semana dada sua abreviatura; contar frequência de palavras um texto; operações matemáticas de conjunto (união, interseção, diferença e diferença simétrica).
+33. [Desafio: verificar os pares de abre/fecha parênteses/colchetes/chaves](Semana4/Sem4_Desafio.py): fazer o parsing de uma expressão aritmética, que faz uso de parênteses, colchetes e chaves, retornando erro na caso de faltar fechar um desses elementos.
+34. [Estudo da Seção 6.2 - Operações com conjuntos](Semana4/Sem4_textoBase_cap6_Conjuntos.py): trabalhando com os métodos dos conjuntos e dos dicionários - _clear_, _copy_, _difference_, _discard_, *intersection_update*, _isdisjoint_, _issubset_, _issuperset_, _pop_, _remove_, *symmetric_difference*, *symmetric_difference_update*, _union_, etc...
+35. [Árvore](Semana4/Sem4_videoaula_Tree.py): criação da classe _Node_ para entendimento dos métodos _insert_, _remove_, _findval_ e _get_. Inserção das folhas pelos métodos polonês, polonês inverso e ordem. Cálculo dos parâmetros da árvore: vértices, arestas, extremidades e altura.
+</dd>
+<dt>Ordenação e busca: explorando alguns algoritmos de ordenação clássicos da área, elencando suas vantagens e desvantagens</dt>
+<dd>
+
+36. [Busca](Semana5/Sem5_Busca.py): trabalhando com buscas lineares e binárias.
+37. [Ordenação](Semana5/Sem5_Ordenacao.py): compondo algorítmos para ordenação de listas (arrays) por seleção, por inserção, _bubble sort_, _merge sort_, _quick sort_, _heap sort_ e _shell sort_.
+</dd>
+<dt>Processamento de elementos da Web: compreendendo tags HTML e JSON</dt>
+<dd>
+
+38. [JSON](Semana6/Sem6_html_json.py): lendo formatos JSON por meio da urllib.request que permite requisitar e receber recursos da Web.
+39. [Webcrawler](Semana6/Sem6_webcrawler.ipynb): explorando padrões em páginas WEB aplicando conceitos HTMLParser e LinkParser.
+</dd>
+<dt>implementando programas com interfaces gráficas (GUI - Graphical User Interface)</dt>
+<dd>
+
+40. [GUI](Semana7/Sem7_UI.py): trabalhando com _Widgets_ e montando a interface.
+</dd>
+<dt>Testes automatizados e revisão dos principais conceitos</dt>
+<dd>
+
+41. [Teste unitário](Semana8/Sem8_Testes.py): conceitos de testes unitários utilizando _unittest_.
+42. [Introdução a programação funcional](Semana8/Funcional.py): estudo de programação funcional: Estados e Dados imutáveis; função _lambda_; pacote _toolz_; utilizando funções _map()_, _reduce()_ e classe _operator_.
+43. [Revisão](Semana8/Sem8_Revisao.py): notação em listas, funções recursivas, orientação a objeto, herança; pilhas, filas e árvores binárias e buscas "em ordem", "polonesa" e "polonesa inversa".
+44. [Prova](Semana8/Sem9_Prova.py): questões da prova: Orientação a Objetos e GUI usando _tkinter_.
+</dd>
+
+</dl>
+
+
+
+
+
+
+
+
+
 
 
 ### 1. [Segmentação de clientes](SegmentacaoCliente.ipynb) para _Food Delivery_
