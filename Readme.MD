@@ -1,112 +1,61 @@
-# COM120 - Algoritmos e Programação de Computadores II
+# COM150 - Fundamentos matemáticos para computação
 
-Composição de programas com múltiplos arquivos de código fonte, uso de bibliotecas, APIs (WEB) e GUIs. Noções de programação orientada a objetos. Depuração de programas. Testes automatizados.
-Conceito e uso de pilhas, filas, listas, árvores. Recursão. Algoritmos de Ordenação e Busca.
-Noções de gerenciamento de memória e manipulação de listas. Módulos e noções de objetos, arquivos. Modularização (módulos, bibliotecas, interfaces). Uso de APIs básicas da WEB e manipulação de dados (JSON). Criação de interfaces gráficas simples. Controle de Versão (GIT). 
+Conceitos de matemática discreta e de lógica para computação (lógica formal e lógica de predicados). Noção de complexidade. Técnicas de demonstração direta, demonstração por contraposição e demonstração por absurdo. Relaçaõ de recorrência, provas, indução matemática.
+Uso da lógica formal em programação declarativa e na demonstração de correção de um algoritmo.
+Relações e conceitos de teoria de grafos. Modelagem de problemas usando grafos. 
 
 ## Exercícios práticos:
 
-Relacionei os exercícios realizados no 4º bimestre/2020 durante as aulas da disciplina COM120 do Curso de Bacharel de Ciência de Dados da Univesp. Abaixo segue uma breve descrição do problema de negócios e da solução em Python (o link direciona para o código):
+Relacionei os exercícios realizados no 4º bimestre/2020 durante as aulas da disciplina COM150 do Curso de Bacharel de Ciência de Dados da Univesp. Abaixo segue uma breve descrição do problema de negócios e da solução em Python (o link direciona para o código):
 
-<dl>
-<dt> Gerenciamento de memória, arquivos e depuração de programas</dt>
-<dd>
-
-1. [Extrair palavras de aquivo 1](Semana1/Aula02_Arquivos.py): leitura de um arquivo texto, imprime as palavras encontradas e retorna a quantidade de palavras e o tamanho do arquivo lido.
-2. [Contar ocorrências de palavra num arquivo](Semana1/ProblemaPratico_4_7.py): leitura de um arquivo texto para obter quantidade de ocorrências de uma palavra a ser localizada.
-3. [Extrair palavras de aquivo 2](Semana1/ProblemaPratico_4_8.py): leitura de um arquivo texto para obter quantidade de palavras (desconsiderando símbolos de pontuação) e impressão da lista de palavras.
-4. [Contar linhas contendo palavra específica](Semana1/ProblemaPratico_4_9.py): impressão das linhas de um arquivo que contenham pelo menos uma ocorrência de uma palavra a ser localizada.
-5. [Trocar primeiro com último item de uma lista](Semana1/ProblemaPratico_3.14.py): função trocaPU(), que aceita uma lista como entrada e troca a posição entre o primeiro e último elementos da lista
-6. [Desenhar do símbolo da olimpíada](Semana1/ProblemaPratico_3.15.py): função olimpíadas(t), que faz com que a tartaruga t desenhe os anéis olímpicos.
-7. [MDC - Obter Máximo Divisor Comum](Semana1/Sem1_textobase_cap3_p76.py): algoritmo para calcular o máximo divisor comum entre dois números
-8. [Calcular força exercida por um líquido](Semana1/Sem1_textobase_cap3_p81.py): função para calcular a força exercida na válvula de um reservatório cilíndrico contendo um líquido de peso específico conhecido.
-9. [Extrair raízes de uma equação do 2º grau](Semana1/Sem1_textobase_cap3_p87.py): algoritmo para calcluar raízes de uma equação de segundo grau (Ax² + Bx + C).
-10. [Gerar e ler arquivo texto](Semana1/Sem1_textoBase_ex7_1_p169.py): trechos de códigos para gravação e leitura de um arquivo texto
-11. [Gerar um arquivo com entrada de números reais 1](Semana1/Sem1_textoBase_ex7_1a_p173.py): programa que permaneça em laço lendo e gravando números reais em um arquivo até que seja digitado 0.
-12. [Ler e somar números de um arquivo 1](Semana1/Sem1_textoBase_ex7_2a_p174.py): programa que leia um arquivo texto contendo um número inteiro em cada linha, exiba na tela e faça a totalização dos valores lidos.
-13. [Gerar um arquivo com entrada de números reais 2](Semana1/Sem1_textoBase_ex7_1b_p173.py): programa que permaneça em laço lendo números reais até que seja digitado 0, gravando todos os números num arquivo a partir da lista de números criada.
-14. [Ler e somar números de um arquivo 2](Semana1/Sem1_textoBase_ex7_2b_p175.py): leitura de arquivo com totalização de valores – solução com iterador de arquivo.
-15. [Calcular média de temperaturas](Semana1/Sem1_textobase_cap3_p96.py): média de N temperaturas fornecidas pelo usuário
-16. [Imprimir lista de compras com totais](Semana1/Sem1_textoBase_ex7_3_p177.py): leitura de um arquivo texto que contém diversas linhas que representam uma lista de compras. Impressão da lista com totais.
-17. [Gerar inventário de estoque](Semana1/Sem1_textoBase_ex7_4_p178.py): programa que leia um número inteiro N (10 < N < 10.000) e grave um arquivo com N linhas, simulando um inventário de estoque contendo código do produto, quantidade em estoque, valor unitário e ICMS a ser aplicado.
-18. [Processar inventário de estoque](Semana1/Sem1_textoBase_ex7_5_p179.py): programa que leia o arquivo CSV criado anteriormente, calculando o valor total em mercadorias e o respectivo crédito de ICMS.
-19. [Testar problemas de encoding](Semana1/Sem1_textoBase_ex7_6_p181.py): algoritmo para leitura e para gravação de arquivos textos usando codificação de caracteres conflitantes, mais detalhes na [W3C](https://www.w3.org/International/questions/qa-what-is-encoding).
-20. [Obter números primos](Semana1/Sem1_textoBase_ep7_1_p182.py): programa que leia um número inteiro N e grave em um arquivo em disco todos os números primos existentes no intervalo fechado [2, N], um número em cada linha.
-21. [Criar arquivo no N números aleatórios](Semana1/Sem1_textoBase_ep7_2_p182.py): gere o arquivo NUMEROS.TXT com 2000 números, um em cada linha, gerados com a função randint no intervalo fechado [1, 100.000].
-22. [Ordenar números aleatórios](Semana1/Sem1_textoBase_ep7_3_p183.py): programa que leia o arquivo NUMEROS.TXT gerado no exercício anterior, colocando-os em uma lista. Ordene a lista utilizando o método Bubble Sort e grave os números ordenados no arquivo “ORDENADOS.TXT”.
-23. [Correção de BUGs](Semana1/ProblemaPratico_4_10.py): explicação do que causa o erro de sintaxe em cada instrução listada.
-</dd>
-<dt>Programação orientada a objetos, prezando pela modularização e reutilização de código</dt>
-<dd>
-
-24. [Classes Point e Vector](Semana2/Sem2_videoaula_POO1.py): conceitos de Orientação a Objeto. Criação das classes _Point_ e _Vector_ com métodos up(), down(), left(), right(), distancia(), subscrição dos métodos para a A classe _Vector_ para aceitar a adição de vetor e operações de produto, além de representação de string canônica. (exercícios 8.12, 8.14 e problema prático 8.8)
-25. [Classes Funcionario e Gerente](Semana2/Sem2_videoaula_POO2-Exercicio.py): trabalhando com herança.
-</dd>
-<dt>Funções recursivas que auxiliam na proposta de soluções para problemas complexos</dt>
-<dd>
-
-26. [Calclular sequência de Fibonacci e Fatorial](Semana3/Sem3_Recursao.py): conceitos de recursão para reselver Fatorial e Fibonacci.
-27. [Comparar tempo entre recursão e iteração](Semana3/Sem3_Recursao_Iteracao.py): comparando os tempos entre iteração e recursão. Conceitos de Memoização para otimizar função recursiva.
-28. [Estudo do capítulo 10 - Recursão](Semana3/Sem3-txtBase.py): analisador de vírus num sistema de arquivos; busca binária em lista (dividir para conquistar); análise experimental de tempo de execução; retornando um dicionário para representar a tabela de frequência de uma lista.
-29. [Estudo da Seção 5.4 - Recursividade](Semana3/Sem3-txtBase2.py): funções variadas: verifica se número é primo; intersecção de duas listas; soma dos elementos de uma lista; busca binária em lista ordenada; verifica se número é par ou ímpar; retorna lista de N números primos; checa divisibilidade entre dois números; conversor de base decimal para binária; cálculo de dígito verificador; valida valor de entrada num intervalo definido; conversor de base decimal para diversas bases - até base 36; inverter sequência de caracteres; verifica palíndromo.
-</dd>
-<dt> Estruturas de dados utilizadas para representação, manipulação e armazenamento de dados? **pilhas, filas e árvores**</dt>
-<dd>
-
-30. [Pilha](Semana4/Sem4_videoaula_Pilha.py): criação de classe _pilha_ para entendimento dos métodos _push_, _pop_, _top_ e _empty_.
-31. [Fila](Semana4/Sem4_videoaula_Fila.py): criação de classe _fila_ para entendimento dos métodos _inserir_, _remover_, _top_ e _empty_; implementação de classe _filaBanco_ para geração e atendimento das senhas normais e prioritárias.
-32. [Dicionário](Semana4/Sem4_textoBase_Dictionary.py): funções para retornar o dia da semana dada sua abreviatura; contar frequência de palavras um texto; operações matemáticas de conjunto (união, interseção, diferença e diferença simétrica).
-33. [Desafio: verificar os pares de abre/fecha parênteses/colchetes/chaves](Semana4/Sem4_Desafio.py): fazer o parsing de uma expressão aritmética, que faz uso de parênteses, colchetes e chaves, retornando erro na caso de faltar fechar um desses elementos.
-34. [Estudo da Seção 6.2 - Operações com conjuntos](Semana4/Sem4_textoBase_cap6_Conjuntos.py): trabalhando com os métodos dos conjuntos e dos dicionários - _clear_, _copy_, _difference_, _discard_, *intersection_update*, _isdisjoint_, _issubset_, _issuperset_, _pop_, _remove_, *symmetric_difference*, *symmetric_difference_update*, _union_, etc...
-35. [Árvore](Semana4/Sem4_videoaula_Tree.py): criação da classe _Node_ para entendimento dos métodos _insert_, _remove_, _findval_ e _get_. Inserção das folhas pelos métodos polonês, polonês inverso e ordem. Cálculo dos parâmetros da árvore: vértices, arestas, extremidades e altura.
-</dd>
-<dt>Ordenação e busca: explorando alguns algoritmos de ordenação clássicos da área, elencando suas vantagens e desvantagens</dt>
-<dd>
-
-36. [Busca](Semana5/Sem5_Busca.py): trabalhando com buscas lineares e binárias.
-37. [Ordenação](Semana5/Sem5_Ordenacao.py): compondo algorítmos para ordenação de listas (arrays) por seleção, por inserção, _bubble sort_, _merge sort_, _quick sort_, _heap sort_ e _shell sort_.
-</dd>
-<dt>Processamento de elementos da Web: compreendendo tags HTML e JSON</dt>
-<dd>
-
-38. [JSON](Semana6/Sem6_html_json.py): lendo formatos JSON por meio da urllib.request que permite requisitar e receber recursos da Web.
-39. [Webcrawler](Semana6/Sem6_webcrawler.ipynb): explorando padrões em páginas WEB aplicando conceitos HTMLParser e LinkParser.
-</dd>
-<dt>implementando programas com interfaces gráficas (GUI - Graphical User Interface)</dt>
-<dd>
-
-40. [GUI](Semana7/Sem7_UI.py): trabalhando com _Widgets_ e montando a interface.
-</dd>
-<dt>Testes automatizados e revisão dos principais conceitos</dt>
-<dd>
-
-41. [Teste unitário](Semana8/Sem8_Testes.py): conceitos de testes unitários utilizando _unittest_.
-42. [Introdução a programação funcional](Semana8/Funcional.py): estudo de programação funcional: Estados e Dados imutáveis; função _lambda_; pacote _toolz_; utilizando funções _map()_, _reduce()_ e classe _operator_.
-43. [Revisão](Semana8/Sem8_Revisao.py): notação em listas, funções recursivas, orientação a objeto, herança; pilhas, filas e árvores binárias e buscas "em ordem", "polonesa" e "polonesa inversa".
-44. [Prova](Semana8/Sem9_Prova.py): questões da prova: Orientação a Objetos e GUI usando _tkinter_.
-</dd>
-
-</dl>
+1. [Relação de recorrência 1](Sem4_Recorrencia.py): Judith L Gersting (Seção 3.1). Exercícios diversos para estabelecer definições e obter soluções para relações recorrentes com uso de algoritmos recursivos.
+2. [Relação de recorrência 2](Sem4_formula_fechada_2_ordem): Judith L Gersting (Seção 3.2). Criando uma seguência com 4 casos básicos. Fórmula fechada de segunda ordem.
+3. [Relação binária com matrizes](Sem5_Matriz.py): criação da classe Matrix e implementação de operadores lógicos e aritméticos, diagonal principal e secundária, características (ordem, identidade, triangular superior, triangular inferior). Cálculo da matriz de acessibilidade para grafos a partir da matriz boolena  de adjacência.
+4. [Conversor polonês ou "pré-ordem"](Sem6_infix_to_postfix.py): dada uma equação algébrica "em ordem" transformá-la em ordem polonesa ou "pré-ordem".
+5. [Conversor polonês inverso ou "pós-ordem"](Sem6_toRpn.py): dada uma equação algébrica "em ordem" transformá-la em ordem polonesa inversa ou "pós-ordem".
+6. [Conversor de expressão](Sem6_preprocessExpression.py): conversor gráfico de expressão para operadores booleandos entre "pré-ordem" e "pós-ordem" - infixToPostfix.
+7. [Circuitos e caminhos em grafos](Sem7_Circuitos_e_caminhos.py): obter a mínima distância entre a origem e destino em um grafo direcionado com pesos em seus vértices.  
+8. [Algoritmo de Dijkstra](Sem7_Dijkstra.py): obter o menor caminho entre dois vértices ponderados de um grafo, usando o algoritmo de Dijkstra.
+9. [Caminho Hamiltonioano](Sem7_Hamiltoniano.py): obter todos os possíveis caminhos Hamiltonianos para um grafo a partir de um determinado vértice. Checar se existe um ciclo. Num caminho Hamiltoniano todos os vértices de um grafo devem ser visitados apenas uma única vez.
+10. [Caminho de Euler](Sem7_Euler.py): verificar se um grafo possui um caminho de Euler. Obter o caminho de Euler. Num caminho de Euler todas as arestas de um grafo devem ser visitados apenas uma única vez.
+11. [Algoritmo de Warshall](Sem7_Warshall.py): dado um grafo _G_ com _n_ nós, o algoritmo de _Warshall_ deve calcular uma sequência de _n + 1_ matrizes de acessibilidades M<sub>0</sub>, M<sub>1</sub>, M<sub>2</sub>, …, M<sub>n</sub>.
 
 
+# Social Analytics
+
+Como mensurar a consequência de campanhas nas redes sociais? Marketing digital, ou internet marketing, é o poder de mensuração de campanhas e observação de ROI (retorno sobre o investimento), além de saber a origem e a quantidade da audiência proveniente da internet, propriedade e experiência de navegação em websites, sites institucionais, portais de notícias e lojas virtuais. Assim como é possível determinar a quantidade de formação de leads e conversões (pedidos de orçamento, download de aplicativos, assinatura de newsletter, venda de produtos,..), rentabilidade e lucro.
+
+## Social Data Mining:
+- mineração de dados das mídias sociais
+- análise de dados sistemática das informações geradas nas mídias sociais
+- requer a tecnologia adequada para tratar Big Data (estima-se que apenas 20% dos dados são relevantes, os demais são ruídos)
+- quanto "alguém" está realmente influenciando outros na WEB?
+- planejamento pró-ativo, em tempo real
+- pode auxiliar a detectar possíveis clientes
+- influencia a forma de aprendizado e entendimento de assuntos relacionados a um produto/serviço
+- permite compartilhar opiniões em tempo real, por exemplo, ao experimentar um produto e/ou serviço no momento em que a compra ocorre
+- O que faz das mídias sociais um lugar tão interessante para a uma marca de um produto ou serviço? O público está lá.
+	- Produção de conteúdo
+	- Monitoramento de campanhas
+	- Engajamento
+	- Atendimento
+	- Análise de sentimento
+
+## Projetos:
+Abaixo segue uma breve descrição do problema de negócios e da solução de alguns projetos em Data Science (o link direciona para o código):
 
 
-
-
-
-
-
-
-
-### 1. [Segmentação de clientes](SegmentacaoCliente.ipynb) para _Food Delivery_
+### 1. [Palavras relacionadas](SocialNetworkAnalytics-Twitter.R) ao tema central _COVID_
 
 #### Objetivo
-O departamento de marketing da empresa _The Ninga_ requer um melhor conhecimento de seus clientes, para isso necessitam de uma segmentação baseada nos últimos 10.000 itens pedidos para traçar um planejamento e atender a estratégia de:
-- Criar três campanhas de marketing para aumentar as vendas de pizza nos meses de Janeiro, Fevereiro, Junho e Julho.
-- Implantar 4 campanhas, uma para cada um dos períodos (manhã, tarde, noite e madrugada) respectivamente a fim de maximizar a quantidade de itens por pedido como um todo.
+O departamento de marketing da empresa _ABCD_ quer elaborar uma campanha de marketing e para isso busca palavras relacionadas e que estejam em evidência no Twitter a fim de potencializar a campanha.
 
 #### Metodologia utilizada
-Aplicação de modelo para clustorização (aprendizado não supervisionado) para reconhecer grupos de padrões nas variáveis solicitadas pela área de marketing e auxiliar nas estratégias das campanhas a serem criadas.
+Coleta, extração e limpeza do texto, criação de Corpus e da matriz de termos, análise junto com a área solicitante  a fim de ajustar os pesos das palavras, criação de nuvem de palavras
+
+<div align="center">
+       <img width="90%" src="COVID_CNN_Twitter.JPG" alt='nuvem de palavras'>
+</div>
 
 ### 2. [Teste A/B](TesteAB.ipynb) para _e-commerce_
 
