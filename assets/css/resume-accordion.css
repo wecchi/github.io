@@ -24,3 +24,8 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.list-overflow{
+  height: 1200px;
+  overflow-y: scroll;
+}
